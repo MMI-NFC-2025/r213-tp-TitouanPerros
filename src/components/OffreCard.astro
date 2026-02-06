@@ -16,6 +16,7 @@ const { adresse, favori, nombre_chambres, nombre_salle_de_bain, nom_maison, prix
             <p class="text-sm">Surface: {superficie} m²</p>
             <p class="text-sm">Chambres: {nombre_chambres}</p>
             <p class="text-sm">Salles de bain: {nombre_salle_de_bain}</p>
+        <a href={`/offres/${offre.id}`}>Voir plus</a>
         </div>
         {favori && <span class="inline-block bg-yellow-400 px-2 py-1 rounded text-xs">⭐ Favori</span>}
     </div>
